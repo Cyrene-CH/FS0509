@@ -32,7 +32,7 @@ function setup() {
   createCanvas(1800, 1400);
     //blood effect
     slider = createSlider(0, 360, 180, 40);
-    slider.position(260, 610);
+    slider.position(-260, -610);
     slider.style("width", "80px");
 
     //uglycloud
